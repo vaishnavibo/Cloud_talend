@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "dfcov"
+		},
+		"ls_blob_population_connectionString": {
+			"value": ""
+		},
+		"ls_cases_and_deaths_password": {
+			"value": ""
+		},
+		"ls_dl_population_accountKey": {
+			"value": ""
+		},
+		"ls_cases_and_deaths_properties_typeProperties_server": {
+			"value": "sqlserverdb0406.database.windows.net"
+		},
+		"ls_cases_and_deaths_properties_typeProperties_database": {
+			"value": "sqlcovid"
+		},
+		"ls_cases_and_deaths_properties_typeProperties_userName": {
+			"value": "system"
+		},
+		"ls_dl_population_properties_typeProperties_url": {
+			"value": "https://covdl.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
