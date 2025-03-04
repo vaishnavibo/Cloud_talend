@@ -1,0 +1,9 @@
+{
+	"name": "dfcov",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "25646aed-9a61-488f-8ac0-0cd06f462fd0",
+		"tenantId": "84f1e4ea-8554-43e1-8709-f0b8589ea118"
+	}
+}
